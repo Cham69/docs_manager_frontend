@@ -36,10 +36,10 @@ const DashboardLayout: React.FC<DashboardLayoutProps> = ({ children }) => {
         </main>
       </div>
       
-      {/* Mobile overlay */}
+      {/* Mobile overlay - Extremely light and transparent */}
       {sidebarOpen && (
         <div 
-          className="fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden"
+          className="fixed inset-0 bg-black/60 z-40 lg:hidden"
           onClick={closeSidebar}
         />
       )}

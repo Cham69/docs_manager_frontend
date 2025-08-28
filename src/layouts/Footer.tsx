@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
         <div className="flex justify-between items-center">
           {/* Left side - Copyright */}
           <div className="text-sm text-gray-500">
-            <p>&copy; 2024 Docs Manager. All rights reserved.</p>
+            <p>&copy; 2025 Docs Manager. All rights reserved.</p>
           </div>
 
           {/* Right side - Version */}
